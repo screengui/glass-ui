@@ -1,4 +1,4 @@
-local Animations = require(script.Parent.Animations)
+local Animations = loadstring(game:HttpGet("https://raw.githubusercontent.com/screengui/glass-ui/refs/heads/main/Core/Animations.lua"))()
 
 local Elements = {}
 
