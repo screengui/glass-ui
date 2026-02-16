@@ -1,8 +1,8 @@
 local UIS = game:GetService("UserInputService")
 local CoreGui = game:GetService("CoreGui")
 
-local Tabs = require(script.Parent.Tabs)
-local Animations = require(script.Parent.Animations)
+local Tabs = loadstring(game:HttpGet("https://raw.githubusercontent.com/screengui/glass-ui/refs/heads/main/Core/Tabs.lua"))()
+local Animations = loadstring(game:HttpGet("https://raw.githubusercontent.com/screengui/glass-ui/refs/heads/main/Core/Animations.lua"))()
 
 local Window = {}
 
