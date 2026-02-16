@@ -1,4 +1,4 @@
-local Elements = require(script.Parent.Elements)
+local Elements = loadstring(game:HttpGet("https://raw.githubusercontent.com/screengui/glass-ui/refs/heads/main/Core/Elements.lua"))()
 
 local Tabs = {}
 
