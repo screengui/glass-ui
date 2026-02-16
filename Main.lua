@@ -20,11 +20,11 @@ local HttpService = game:GetService("HttpService")
 local UIS = game:GetService("UserInputService")
 
 -- Modules
-local Animations = require(script.Core.Animations)
-local Themes = require(script.Core.Themes)
-local Config = require(script.Core.Config)
-local Window = require(script.Core.Window)
-local KeySystem = require(script.Systems.KeySystem)
+local Animations = loadstring(game:HttpGet("https://raw.githubusercontent.com/screengui/glass-ui/refs/heads/main/Core/Animations.lua"))()
+local Themes = loadstring(game:HttpGet("https://raw.githubusercontent.com/screengui/glass-ui/refs/heads/main/Core/Themes.lua"))()
+local Config = loadstring(game:HttpGet("https://raw.githubusercontent.com/screengui/glass-ui/refs/heads/main/Core/Config.lua"))()
+local Window = loadstring(game:HttpGet("https://raw.githubusercontent.com/screengui/glass-ui/refs/heads/main/Core/Window.lua"))()
+local KeySystem = loadstring(game:HttpGet("https://raw.githubusercontent.com/screengui/glass-ui/refs/heads/main/System/KeySystem.lua"))()
 
 function Library:Init(options)
     for i,v in pairs(options) do
