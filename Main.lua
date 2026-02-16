@@ -24,7 +24,7 @@ local Animations = loadstring(game:HttpGet("https://raw.githubusercontent.com/sc
 local Themes = loadstring(game:HttpGet("https://raw.githubusercontent.com/screengui/glass-ui/refs/heads/main/Core/Themes.lua"))()
 local Config = loadstring(game:HttpGet("https://raw.githubusercontent.com/screengui/glass-ui/refs/heads/main/Core/Config.lua"))()
 local Window = loadstring(game:HttpGet("https://raw.githubusercontent.com/screengui/glass-ui/refs/heads/main/Core/Window.lua"))()
-local KeySystem = loadstring(game:HttpGet("https://raw.githubusercontent.com/screengui/glass-ui/refs/heads/main/System/KeySystem.lua"))()
+local KeySystem = loadstring(game:HttpGet("https://raw.githubusercontent.com/screengui/glass-ui/refs/heads/main/Systems/KeySystem.lua"))()
 
 function Library:Init(options)
     for i,v in pairs(options) do
